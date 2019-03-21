@@ -109,7 +109,7 @@ public class player1 : MonoBehaviour
         {
             freeze++;
             health--;
-            healthText.text = "Player2\n" + "Health: " + health.ToString();
+            healthText.text = "Player1\n" + "Health: " + health.ToString();
             Destroy(col.gameObject);
         }
 
